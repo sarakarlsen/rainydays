@@ -217,7 +217,9 @@ h2 {
 .row {
   padding: 30px;
 }
-
+#shipping.row {
+  padding: 5px;
+}
 
 
 .column {
