@@ -327,8 +327,9 @@ nav {
   #footer.column {
     width: 20%;
 }
-#footer.column-4 {
-  width: 40%;
+
+#text.column {
+  text-align: start;
 }
 
 }
