@@ -100,7 +100,7 @@ margin: 12.8px 0px 0px -20px;
   font-size: 0.8em;
 }
 
-.call-to-action {
+.call-to-action, button {
     display: inline-block;
     margin: 20px;
   border-style: solid;
@@ -111,7 +111,7 @@ margin: 12.8px 0px 0px -20px;
   color: #FFFFFF;
   }
   
-  .call-to-action:hover {
+  .call-to-action:hover, button {
     background-color: #0A3641;
     color: #FFFFFF;
     border-style: solid #0A3641;
@@ -314,6 +314,8 @@ nav {
 }
 #footer.column-4 {
   width: 40%;
+}
+
 }
 @media only screen and (min-width: 1000px) {
 
