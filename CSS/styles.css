@@ -154,14 +154,12 @@ footer {
     text-align: initial;
  }
 
- #footer.row {
+ #footer.row, #footer.column {
    padding: 0px;
 
  
  }
- #footer.column {
-   padding: 0px;
- }
+ 
 
  #footer p {
    font-weight: 400;
@@ -169,14 +167,13 @@ footer {
 
  #footer-social.icon {
    color: #FFFFFF;
-   position: relative;
-   bottom: 20px;
+  
 
  }
    
 
    #footer-social.column {
-     display: flex;
+     display: inline;
 
   
  }
