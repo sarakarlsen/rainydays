@@ -173,7 +173,8 @@ footer {
    
 
    #footer-social.column {
-     display: inline;
+     display: inline-block;
+     width: 20%;
 
   
  }
