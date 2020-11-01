@@ -12,3 +12,8 @@ body#index {
   #index-row {
       background-color: #FFFFFF;
   }
+
+  .call-to-action#index {
+    color: #FFFFFF;
+  }
+  
