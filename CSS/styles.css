@@ -121,6 +121,7 @@ margin: 12.8px 0px 0px -20px;
   button {
   border-style: solid;
   padding: 10px;
+  font-family: inherit;
   font-size: 1em;
   border-radius: 5%;
   color: #0A3641;
