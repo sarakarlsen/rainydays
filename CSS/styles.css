@@ -148,12 +148,6 @@ body {
 
 }
 
-body#index {
-  background-image: url(../Images/Background_frontpage_mobile.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-
-}
 
 footer {
     width: 100%;
@@ -177,7 +171,6 @@ h2 {
 
 .row {
   padding: 30px;
-  background-color: #FFFFFF;
 }
 
 
@@ -223,9 +216,6 @@ h2 {
       padding: 20px;
     }
 
-    #index-container {
-      background-color:transparent;
-    }
     
   
 
