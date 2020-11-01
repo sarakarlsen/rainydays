@@ -63,22 +63,32 @@
                             <input type="text" id="lname" name="lastname" placeholder="Last name*">
                         </div>       
                         <div class="row" id="shipping">
-                            <p>Address</p>
+                            <p>Address line 1</p>
                         </div>
                             <div class="row">
                             <input type="text" id="address" name="address" placeholder="Address*">
-                          </div>                
+                          </div>     
+                          <div class="row" id="shipping">
+                            <p>Address line 2</p>
+                        </div>
+                            <div class="row">
+                            <input type="text" id="address" name="address">
+                          </div>          
+                          <div class="row" id="shipping">
+                            <p>City/Town</p>
+                        </div>
+                            <div class="row">
+                            <input type="text" id="city" name="city" placeholder="City/town*">
+                          </div>                    
                         <div class="row">
-                             <select name="subject" required>
-                          <option value="subject" disabled selected>Subject*</option>
-                          <option value="Products">Products</option>
-                          <option value="Shipping">Shipping</option>
-                          <option value="Other">Other</option>
+                            Country
+                             <select name="country" required>
+                          <option value="USA" selected>USA*</option>
+                          <option value="Norway">NORWAY</option>
+                          <option value="UNITED KINGDOM">UNITED KINGDOM</option>
+                          <option value="SOUTH AFRICA">SOUTH AFRICA</option>
                         </select>
                           </div>
-                        <div class="row">
-                            <textarea id="subject" name="subject" placeholder="Please enter your message here" style="height:200px"></textarea>
-                        </div>
                         <div class="row">
                           <input type="submit" value="Submit">
                         </div>
