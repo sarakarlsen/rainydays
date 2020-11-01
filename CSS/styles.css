@@ -117,7 +117,7 @@ margin: 12.8px 0px 0px -20px;
     border-style: solid #8aa2a8;
   }
 
-  .button {
+  button {
     border-style: solid;
     font-family: inherit;
   padding: 10px;
