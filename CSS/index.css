@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    
+    
+}
+    
+a, a:hover, a:focus {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:active {
+    text-decoration: underline;
+
+}
+
+a:hover {
+    text-decoration: underline;
+    color: inherit;
+}
+
+header {
+
+ 
+padding: 10px;
+position: fixed;
+background-color: #FFFFFF;
+width: 100%;
+}
+
+.logo {
+
+    max-width: 100px;
+    padding-top: 10px;
+}
+
+
+.hamburger-label{
+    float: left;
+    padding: 25px 25px 25px 10px;
+
+  
+  }
+
+  #search-bar {
+      display:block;
+      float: right;
+      padding-top: 25px;
+      padding-right: 25px;
+  }
+
+label {
+    color: #0A3641;
+  }
+
+  .chat-label {
+      position: fixed;
+      bottom: 15px;
+      right: 15px;
+      font-size: 2em;
+      color: #D0A076;
+
+  }
+
+
+  
+  nav, #nav-2, #hamburger-menu, #nav-sidebar {
+      display: none;
+  }
+  
+  #hamburger-menu:checked ~ #nav-sidebar {
+      display: block;
+    
+  }
+   
+  #nav-sidebar {
+
+  position:fixed;
+  text-align: start;
+  background-color: #0A3641;
+  opacity: 95%;
+  padding: 0px 20px 150px 0px;
+  margin: 12.8px 0px 0px -20px;
+
+
+
+  }
+
+#nav-sidebar ul {
+    color: #FFFFFF;
+}
+
+#nav-sidebar li {
+    padding: 20px;
+}
+
+#nav-sidebar-about {
+    font-size: 0.8em;
+}
+
+  .call-to-action {
+      display: inline-block;
+      margin: 20px;
+    border-style: solid;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transition: color 1s;
+    }
+    
+    .call-to-action:hover {
+      background-color: #0A3641;
+      color: #FFFFFF;
+      border-style: solid #0A3641;
+    }
+
+  ul {
+      display: inline-block;
+      list-style: none;
+      color: #0A3641;
+      text-transform: uppercase;
+      padding-top: 25px;
+    
+  }
+
+  li {
+      text-decoration: none;
+  }
+
+
+
+
+
+main {
+    padding: 20px;
+}
+
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    text-align: center;
+    color: #0A3641;
+    background-image: url(../images/Background_frontpage_mobile.jpg);
+    background-repeat: no-repeat;
+    
+
+}
+
+footer {
+    width: 100%;
+    height: 120px;  
+    background-color: #0A3641;
+ }
+
+h1 {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 2.5em;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    
+}
+h2 {
+    font-weight: 300;
+    font-size: 1.5em;
+}
+
+.container {
+    padding: 30px;
+}
+
+.row {
+    background-color: #FFFFFF;
+    padding: 30px;
+  }
+  
+  
+  .column {
+        
+    padding: 5px;
+
+      }
+
+@media only screen and (min-width: 600px) {
+
+    
+header {
+    padding-top: 30px;
+}
+
+  nav {
+      display: inline;
+      padding-top: 25px;
+      margin-left: -500px;
+      position: fixed;
+  }
+
+  #nav-2 {
+    display: inline;
+    font-size: 0.85em;
+    margin-right: -550px;
+    padding-left: 100px;
+  }
+
+  #nav-2 ul {
+      display: none;
+   
+  }
+
+  #nav-2 li {
+      display: none;
+  }
+
+
+       
+    nav ul, nav li, #nav-2 li{
+
+        display:inline;
+        padding: 20px;
+    
+    
+       }
+
+   
+    
+      .logo {
+    max-width: 100px;
+    padding: 20px;
+    float: left;
+    
+     }
+    
+     .hamburger-label  {
+    display:none;
+     }
+    
+
+    .column {
+        display: inline-block;
+        width: 30%;
+        
+    }
+
+
+}
+
+
+@media only screen and (min-width: 1000px) {
+
+    #nav-2 ul {
+        display: inline-block;
+
+    }
+
+    nav {
+        display: inline;
+        padding-top: 25px;
+        margin-left: -380px;
+        position: fixed;
+
+}
+}
