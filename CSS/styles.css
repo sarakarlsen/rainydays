@@ -223,7 +223,11 @@ h2 {
     }
 
     #index-container {
-      background-color:none;
+      background-color:transparent;
+    }
+    
+    #index.row {
+      background-color: #FFFFFF;
     }
     
   
