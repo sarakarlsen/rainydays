@@ -155,10 +155,6 @@ body#index {
 
 }
 
-body#index.container {
-background-color: none;
-}
-
 footer {
     width: 100%;
     height: 120px;  
@@ -226,7 +222,7 @@ h2 {
       padding: 20px;
     }
 
-    #index.container {
+    #index-container {
       background-color:none;
     }
     
