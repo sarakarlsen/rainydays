@@ -118,6 +118,9 @@ margin: 12.8px 0px 0px -20px;
   }
 
   button {
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
     border-style: solid 1px;
     font-family: inherit;
   padding: 10px;
