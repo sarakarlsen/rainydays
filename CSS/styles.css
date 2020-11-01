@@ -118,12 +118,7 @@ margin: 12.8px 0px 0px -20px;
   }
 
   button {
-    outline: 0;
-    outline-offset: -2px;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    border-style: none;
-    font-family: inherit;
+  border-style: solid;
   padding: 10px;
   font-size: 1em;
   border-radius: 5%;
