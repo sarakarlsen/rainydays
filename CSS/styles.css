@@ -166,11 +166,17 @@ footer {
    font-weight: 400;
  }
 
+ #footer-icon.column {
+   padding: 100px;
+ }
+
  footer ul {
    color: #FFFFFF;
    text-transform: initial;
    padding: 15px;
  }
+
+ 
 
 
 
