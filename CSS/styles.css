@@ -218,6 +218,12 @@ h2 {
   padding: 30px;
 }
 
+#shipping.row {
+  padding: 5px;
+  text-align: start;
+
+}
+
 
 .column {
       
