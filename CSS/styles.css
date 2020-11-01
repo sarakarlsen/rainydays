@@ -166,8 +166,8 @@ footer {
    font-weight: 400;
  }
 
- #footer-icon.column {
-   padding: 100px;
+ #footer-icon {
+   color: FFFFFF;
  }
 
  footer ul {
