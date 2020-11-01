@@ -222,9 +222,11 @@ h2 {
 .column {
       
   padding: 5px;
+}
 
-
-    }
+#text.column {
+  text-align: start;
+}
 
     
     input[type=text], select, textarea {
@@ -326,10 +328,6 @@ nav {
 
   #footer.column {
     width: 20%;
-}
-
-#text.column {
-  text-align: start;
 }
 
 }
