@@ -157,8 +157,11 @@ footer {
  }
 
  #footer.row {
-   color: #FFFFFF;
    padding: 0px;
+ }
+
+ footer ul {
+   color: #FFFFFF;
  }
 
 
