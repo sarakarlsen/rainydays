@@ -172,6 +172,13 @@ footer {
    color: #FFFFFF;
    position: relative;
    bottom: 20px;
+
+ }
+   
+
+   #footer-social.column {
+     display: flex;
+
   
  }
 
