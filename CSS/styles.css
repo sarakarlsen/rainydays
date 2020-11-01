@@ -100,21 +100,31 @@ margin: 12.8px 0px 0px -20px;
   font-size: 0.8em;
 }
 
-.call-to-action, button {
+.call-to-action {
     display: inline-block;
     margin: 20px;
   border-style: solid;
   padding: 10px;
-  font-size: 1rem;
+  font-size: 1em;
   border-radius: 5%;
   text-transform: uppercase;
   color: #FFFFFF;
   }
   
-  .call-to-action:hover, button {
+  .call-to-action:hover {
     background-color: #0A3641;
     color: #FFFFFF;
-    border-style: solid #0A3641;
+    border-style: solid #8aa2a8;
+  }
+
+  .button {
+    border-style: solid;
+  padding: 10px;
+  font-size: 1em;
+  border-radius: 5%;
+  color: #0A3641;
+  }
+
   }
 
 ul {
