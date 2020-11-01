@@ -162,6 +162,8 @@ footer {
 
  footer ul {
    color: #FFFFFF;
+   text-transform: initial;
+   padding: 15px;
  }
 
 
