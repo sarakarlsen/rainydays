@@ -151,6 +151,7 @@ body {
 body.home {
   background-image: url(../Images/Background_frontpage_mobile.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 footer {
