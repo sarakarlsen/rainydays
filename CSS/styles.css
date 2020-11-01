@@ -111,10 +111,10 @@ margin: 12.8px 0px 0px -20px;
   color: #FFFFFF;
   }
   
-  .call-to-action:hover {
+  .call-to-action:hover, button:hover {
     background-color: #0A3641;
     color: #FFFFFF;
-    border-style: solid #8aa2a8;
+    border-style: solid #0A3641;
   }
 
   button {
