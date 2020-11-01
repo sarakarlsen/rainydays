@@ -156,8 +156,10 @@ footer {
 
  #footer.row {
    padding: 0px;
+   display: flex;
+   flex-direction: row;
+ 
  }
-
  #footer.column {
    padding: 0px;
  }
@@ -167,7 +169,7 @@ footer {
  }
 
  #footer-icon {
-   color: FFFFFF;
+   color: #FFFFFF;
  }
 
  footer ul {
