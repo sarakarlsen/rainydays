@@ -151,7 +151,7 @@ body {
 
 footer { 
     background-color: #0A3641;
-    text-align: start;
+    text-align: initial;
  }
 
  #footer.row {
@@ -302,7 +302,7 @@ nav {
   }
 
   footer {
-    text-align: initial;
+    text-align: start;
   }
 }
 @media only screen and (min-width: 1000px) {
