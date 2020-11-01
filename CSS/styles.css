@@ -160,6 +160,10 @@ footer {
    padding: 0px;
  }
 
+ #footer.column {
+   padding: 0px;
+ }
+
  footer ul {
    color: #FFFFFF;
    text-transform: initial;
