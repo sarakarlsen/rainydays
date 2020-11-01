@@ -167,6 +167,7 @@ body {
 
 footer { 
     background-color: #0A3641;
+    padding: 10px;
  }
 
  #footer.row, #footer.column {
@@ -321,9 +322,7 @@ nav {
       
   }
 
-  footer {
-    text-align: start;
-  }
+
 
   #footer.column {
     width: 20%;
