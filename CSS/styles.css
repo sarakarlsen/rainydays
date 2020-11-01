@@ -177,6 +177,7 @@ h2 {
 
 .row {
   padding: 30px;
+  background-color: #FFFFFF;
 }
 
 
@@ -224,10 +225,6 @@ h2 {
 
     #index-container {
       background-color:transparent;
-    }
-    
-    #index.row {
-      background-color: #FFFFFF;
     }
     
   
