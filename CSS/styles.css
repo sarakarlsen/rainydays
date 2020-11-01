@@ -118,13 +118,15 @@ margin: 12.8px 0px 0px -20px;
   }
 
   button {
-    border-style: solid;
+    border-style: solid 1px;
     font-family: inherit;
   padding: 10px;
   font-size: 1em;
   border-radius: 5%;
   color: #0A3641;
+  border-color: #0A3641;
   background-color: #FFFFFF;
+
 
   }
 
