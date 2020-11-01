@@ -176,6 +176,13 @@ footer {
      display: inline-block;
      width: 20%;
 
+   }
+
+     #footer.column-4 {
+width: 30%;
+
+
+
   
  }
 
