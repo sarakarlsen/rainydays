@@ -172,13 +172,7 @@ footer {
  }
    
 
-   #footer.column {
-     width: 20%;
-
      
-
-  
- }
 
  footer ul {
    color: #FFFFFF;
@@ -314,6 +308,11 @@ nav {
   footer {
     text-align: start;
   }
+
+  #footer.column {
+    width: 20%;
+}
+
 }
 @media only screen and (min-width: 1000px) {
 
