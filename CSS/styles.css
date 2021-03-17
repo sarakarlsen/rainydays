@@ -21,6 +21,10 @@ a:hover {
   color: inherit;
 }
 
+img:hover {
+  opacity: 0.5;
+}
+
 header {
 
 
