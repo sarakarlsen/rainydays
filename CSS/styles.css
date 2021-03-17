@@ -11,7 +11,7 @@
 
 
 
-img.link:hover .overlay-test {
+img.link:hover ~ .overlay-test {
 opacity: 1;
 }
   
