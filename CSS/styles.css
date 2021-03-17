@@ -60,7 +60,7 @@ label {
     bottom: 15px;
     right: 15px;
     font-size: 2em;
-    color: #D0A076;
+    color: #ff9933;
 
 
 
@@ -106,9 +106,9 @@ margin: 12.8px 0px 0px -20px;
 .call-to-action {
     display: inline-block;
     margin: 20px;
-  background-color: #D0A076;
+  background-color:#ff9933;
   border-style: none;
-  padding: 20px;
+  padding: 15px;
   font-size: 1em;
   border-radius: 5%;
   text-transform: uppercase;
