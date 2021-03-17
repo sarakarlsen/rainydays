@@ -36,6 +36,7 @@ a:hover {
 }
 
 img.link {
+  display: block;
   width: 80%;
 }
 
