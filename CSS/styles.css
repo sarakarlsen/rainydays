@@ -62,7 +62,13 @@ label {
     font-size: 2em;
     color: #D0A076;
 
-}
+
+
+  }
+
+  .container {
+    max-width: 800px;
+  }
 
 
 
