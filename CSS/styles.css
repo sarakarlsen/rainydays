@@ -159,6 +159,7 @@ ul {
 
 ul.bullet {
   list-style:square;
+  text-align: start;
 }
 
 li {
