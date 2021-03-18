@@ -157,6 +157,10 @@ ul {
   
 }
 
+ul.bullet {
+  list-style:square;
+}
+
 li {
     text-decoration: none;
 }
