@@ -12,6 +12,14 @@
   background-size: cover;
 }
 
+.form-error {
+  color: #B24B1F;
+  font-size: 0.8rem;
+  padding: 10px;
+  text-align: start;
+  display: none;
+}
+
   
 a, a:hover, a:focus {
   text-decoration: none;
