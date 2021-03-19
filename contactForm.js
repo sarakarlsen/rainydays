@@ -9,7 +9,7 @@ const emailError = document.querySelector("#emailError");
 const subjectText = document.querySelector("#textarea");
 const subjectTextError = document.querySelector("#textError");
 
-const button = document.querySelector(".submit");
+const button = document.querySelector("submit");
 
 console.log(button);
 
