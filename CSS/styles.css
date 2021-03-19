@@ -204,6 +204,8 @@ body {
 footer { 
     background-color: #0A3641;
     padding: 10px;
+    position: fixed;
+    bottom: 0;
  }
 
  #footer.row, #footer.column {
