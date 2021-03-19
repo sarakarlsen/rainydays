@@ -9,7 +9,7 @@ const emailError = document.querySelector("#emailError");
 const address = document.querySelector("#address");
 const addressError = document.querySelector("#addressError");
 
-const button = document.querySelector("button");
+const button = document.querySelector("submit");
 
 console.log(button);
 
