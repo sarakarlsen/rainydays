@@ -9,7 +9,7 @@ const emailError = document.querySelector("#emailError");
 const subjectText = document.querySelector("#textarea");
 const subjectTextError = document.querySelector("#textError");
 
-const button = document.querySelector("button");
+const button = document.querySelector("#button");
 
 console.log(button);
 
@@ -53,7 +53,7 @@ function validateForm() {
 
 }
 
-form.addEventListener("submit", validateForm);
+form.addEventListener("click", validateForm);
 
 
 
