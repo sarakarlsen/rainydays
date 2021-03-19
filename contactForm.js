@@ -20,7 +20,7 @@ function validateForm() {
   event.preventDefault()
 
 
-  if (checkLength(fname.value, 1) === true) {
+  if (checkLength(fname.value, 0) === true) {
     fnameError.style.display = "none";
 
 
@@ -60,7 +60,7 @@ form.addEventListener("click", validateForm);
 
 
 function checkLength(value, len) {
-  if (value.trim().length < len) {
+  if (value.trim().length > len) {
     return true;
   } else {
     return false;
