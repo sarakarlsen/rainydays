@@ -71,8 +71,8 @@ function validateEmail(email) {
   return emailMatches;
 }
 
-function validateSubject() {
- if (subject[i].value == "") {
+function validateSubject(value) {
+ if (subject.value == "") {
      return false;
  } else {
      return true;
