@@ -74,7 +74,7 @@ function validateEmail(email) {
 }
 
 function validateSubject(value) {
- if (value.subject == "") {
+ if (value.subject == "0") {
      return false;
  } else {
      return true;
