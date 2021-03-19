@@ -196,7 +196,6 @@ body {
   font-weight: 100;
   text-align: center;
   color: #0A3641;
-  height: 100%;
   
 
 }
@@ -205,9 +204,7 @@ body {
 footer { 
     background-color: #0A3641;
     padding: 10px;
-    width: 100%;
-    bottom: 0;
-    position: fixed;
+    
  }
 
  #footer.row, #footer.column {
