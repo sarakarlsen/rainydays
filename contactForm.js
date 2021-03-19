@@ -20,12 +20,16 @@ function validateForm() {
   event.preventDefault()
 
 
-  if (checkLength(fname.value, 0) === true) {
+
+
+  if (checkLength(fname.value, 1) === true) {
     fnameError.style.display = "none";
+    
 
 
   } else {
     fnameError.style.display = "block";
+
 
   }
 
@@ -36,12 +40,14 @@ function validateForm() {
 
   } else {
     subjectTextError.style.display = "block";
+    valid = false;
  
   }
   if (validateEmail(email.value) === true) {
     emailError.style.display = "none";
   } else {
     emailError.style.display = "block";
+
 
   }
 
@@ -50,10 +56,13 @@ function validateForm() {
   } else {
       subjectError.style.display = "block";
 
+
   }
 
 
+
 }
+
 
 form.addEventListener("submit", validateForm);
 
@@ -80,7 +89,4 @@ function validateSubject() {
      return true;
  }
 }
-
-onsubmit = validateForm
-
 
