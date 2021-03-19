@@ -18,7 +18,7 @@ function validateForm() {
   event.preventDefault()
 
 
-  if (checkLength(fname.value, 1) === true) {
+  if (checkLength(fname.value, 0) === true) {
     fnameError.style.display = "none";
 
 
@@ -72,7 +72,7 @@ function validateEmail(email) {
 }
 
 function validateSubject(value) {
- if (subject.value == "") {
+ if (value.subject == "") {
      return false;
  } else {
      return true;
