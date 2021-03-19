@@ -5,6 +5,11 @@
   
 }
 
+.errorPage {
+
+  background-image: url(../Images/Background_frontpage.jpg);
+}
+
   
 a, a:hover, a:focus {
   text-decoration: none;
