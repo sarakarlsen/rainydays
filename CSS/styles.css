@@ -8,6 +8,8 @@
 .errorPage {
 
   background-image: url(../Images/Background_frontpage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
   
