@@ -13,6 +13,8 @@ const button = document.querySelector("#button");
 
 console.log(button);
 
+console.log(subject);
+
 
 function validateForm() {
   event.preventDefault()
