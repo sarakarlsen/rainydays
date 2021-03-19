@@ -18,7 +18,7 @@ function validateForm() {
   event.preventDefault()
 
 
-  if (checkLength(fname.value, 0) === true) {
+  if (checkLength(fname.value, 1) === true) {
     fnameError.style.display = "none";
 
 
