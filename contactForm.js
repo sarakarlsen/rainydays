@@ -45,7 +45,7 @@ function validateForm() {
 
   }
 
-  if (validateSubject(subject.value, 0) === true) {
+  if (validateSubject(subject.value) === true) {
       subjectError.style.display = "none";
   } else {
       subjectError.style.display = "block";
