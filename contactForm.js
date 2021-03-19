@@ -60,7 +60,7 @@ form.addEventListener("submit", validateForm);
 
 
 function checkLength(value, len) {
-  if (value.trim().length > len) {
+  if (value.trim().length >= len) {
     return true;
   } else {
     return false;
@@ -81,5 +81,6 @@ function validateSubject() {
  }
 }
 
-console.log(email);
+onsubmit = validateForm
+
 
