@@ -43,7 +43,7 @@ function validateForm() {
 
   }
 
-  if(validateSubject(subject.value) === true) {
+  if (validateSubject(subject.value) === true) {
       subjectError.style.display = "none";
   } else {
       subjectError.style.display = "block";
@@ -72,7 +72,7 @@ function validateEmail(email) {
 }
 
 function validateSubject() {
- if (subject.value == "") {
+ if (subject.value === "") {
      return false;
  } else {
      return true;
