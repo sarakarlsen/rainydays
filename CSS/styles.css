@@ -79,6 +79,7 @@ label {
   color: #0A3641;
 }
 
+
 .chat-label {
     position: fixed;
     bottom: 15px;
@@ -268,7 +269,7 @@ h2 {
 
 
     
-    input[type=text], select, textarea {
+    input, select, textarea {
       font-family: inherit;
       width: 100%;
       padding: 12px;
