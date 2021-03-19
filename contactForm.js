@@ -1,13 +1,13 @@
 const form = document.querySelector("#contactForm");
 
-const fname = document.querySelector("#fname");
-const fnameError = document.querySelector("#fnameError");
+const fname = document.querySelector("#fullName");
+const fnameError = document.querySelector("#fullNameError");
 const subject = document.querySelector("#subject");
 const subjectError = document.querySelector("#subjectError");
 const email = document.querySelector("#email");
 const emailError = document.querySelector("#emailError");
-const address = document.querySelector("#address");
-const addressError = document.querySelector("#addressError");
+const subjectText = document.querySelector("#textarea");
+const subjectTextError = document.querySelector("#textError");
 
 const button = document.querySelector(".submit");
 
@@ -27,28 +27,26 @@ function validateForm() {
 
   }
 
-  if (checkLength(subject.value, 10) === true) {
-    subjectError.style.display = "none";
 
-  } else {
-    subjectError.style.display = "block";
-    valid = false;
-  }
-
-  if (checkLength(address.value, 25) === true) {
-    addressError.style.display = "none";
-
+  if (checkLength(subjectText.value, 25) === true) {
+    subjectTextError.style.display = "none";
 
 
   } else {
-    addressError.style.display = "block";
+    subjectTextError.style.display = "block";
  
   }
   if (validateEmail(email.value) === true) {
     emailError.style.display = "none";
-    valid = true;
   } else {
     emailError.style.display = "block";
+
+  }
+
+  if(validateSubject(subject.value) === true) {
+      subjectError.style.display = "none";
+  } else {
+      subjectError.style.display = "block";
 
   }
 
@@ -71,6 +69,14 @@ function validateEmail(email) {
   const someSigns = /\S+@\S+\.\S+/;
   const emailMatches = someSigns.test(email);
   return emailMatches;
+}
+
+function validateSubject() {
+ if (subject.value == "subject") {
+     return false;
+ } else {
+     return true;
+ }
 }
 
 console.log(email);
