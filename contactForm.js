@@ -55,7 +55,7 @@ function validateForm() {
 
 }
 
-form.addEventListener("click", validateForm);
+form.addEventListener("submit", validateForm);
 
 
 
