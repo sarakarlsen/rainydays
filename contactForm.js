@@ -73,8 +73,8 @@ function validateEmail(email) {
   return emailMatches;
 }
 
-function validateSubject(value) {
- if (value.subject == "0") {
+function validateSubject() {
+ if (value.subject === "0") {
      return false;
  } else {
      return true;
