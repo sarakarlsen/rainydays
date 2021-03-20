@@ -349,6 +349,10 @@ nav {
   
   
      }
+
+     li.icon {
+       padding: 2px;
+     }
  
   
     .logo {
