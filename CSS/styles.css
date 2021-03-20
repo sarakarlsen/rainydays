@@ -5,6 +5,10 @@
   
 }
 
+label.icon a:hover {
+  color: lightblue;
+}
+
 .errorPage {
 
   background-image: url(../Images/Background_frontpage.jpg);
