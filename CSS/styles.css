@@ -183,6 +183,7 @@ ul.bullet {
 
 li {
     text-decoration: none;
+
 }
 
 
@@ -342,7 +343,7 @@ nav {
 
 
      
-  nav ul, li {
+  nav ul, nav li, #nav-2 li{
 
       display:inline;
       padding: 20px;
@@ -351,7 +352,9 @@ nav {
      }
 
      li.icon, li.cart {
-       padding: 2px;
+
+      display: inline;
+      padding: 2px;
      }
  
   
