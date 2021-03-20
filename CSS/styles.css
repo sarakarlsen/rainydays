@@ -183,6 +183,7 @@ ul.bullet {
 
 li {
     text-decoration: none;
+    display: inline;
 }
 
 
