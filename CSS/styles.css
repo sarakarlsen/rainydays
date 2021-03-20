@@ -73,9 +73,8 @@ width: 100%;
 }
 
 #search-bar {
-    display:block;
+    display:inline;
     float: right;
-    padding-top: 25px;
     padding-right: 25px;
 }
 
