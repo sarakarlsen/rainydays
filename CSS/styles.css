@@ -183,7 +183,6 @@ ul.bullet {
 
 li {
     text-decoration: none;
-    display: inline;
 }
 
 
@@ -343,7 +342,7 @@ nav {
 
 
      
-  nav ul, nav li, #nav-2 li{
+  nav ul, li {
 
       display:inline;
       padding: 20px;
