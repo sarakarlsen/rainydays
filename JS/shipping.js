@@ -49,7 +49,7 @@ function validateThis() {
 
 
 }
-if (checkTheLength(address.value, 1) === true) {
+if (checkTheLength(address.value, 10) === true) {
     addressError.style.display = "none";
     
 
