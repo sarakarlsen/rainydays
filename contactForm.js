@@ -98,11 +98,17 @@ function validateSubject() {
  } else {
      return true;
  }
-
-
-function validateNumber(number) {
-  const numbersOnly = /^\d{10}$/;
-  const numberMatches = numbersOnly.test(number);
-  return numberMatches;
 }
+
+
+function validateNumber(inputZip) {
+  const zipNumber = /^\d{10}$/;
+
+  if(inputZip.value.match(zipNumber))
+
+{
+return true;
+
+}
+
 }
