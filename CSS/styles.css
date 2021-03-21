@@ -1,31 +1,11 @@
 * {
   margin: 0;
-
-  
-  
 }
-label.icon a:hover {
 
+label.icon a:hover {
   color: lightblue;
 }
 
-.errorPage {
-
-  background-image: url(../Images/Background_frontpage.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.form-error {
-  color: #B24B1F;
-  font-size: 0.8rem;
-  padding: 10px;
-  text-align: start;
-  display: none;
-
-}
-
-  
 a, a:hover, a:focus {
   text-decoration: none;
   color: inherit;
@@ -34,7 +14,6 @@ a, a:hover, a:focus {
 a:active {
   text-decoration: underline;
   color: inherit;
-
 }
 
 a:hover {
@@ -51,73 +30,55 @@ img.link:hover {
 }
 
 header {
-
-
-padding: 10px;
-position: fixed;
-background-color: #FFFFFF;
-width: 100%;
+  padding: 10px;
+  position: fixed;
+  background-color: #FFFFFF;
+  width: 100%;
 }
 
 .logo {
-
   max-width: 100px;
   padding-top: 10px;
 }
 
-
-.hamburger-label{
+.hamburger-label {
   float: left;
   padding: 25px 25px 25px 10px;
-
-
 }
 
 #search-bar {
-    display:inline;
-    float: right;
-    padding-right: 25px;
+  display: inline;
+  float: right;
+  padding-right: 25px;
 }
 
 label {
   color: #0A3641;
 }
 
-
 .chat-label {
-    position: fixed;
-    bottom: 15px;
-    right: 15px;
-    font-size: 2em;
-    color: #ff9933;
-
-
-
-  }
-
-
-
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  font-size: 2em;
+  color: #ff9933;
+}
 
 nav, #nav-2, #hamburger-menu, #nav-sidebar {
-    display: none;
+  display: none;
 }
 
-#hamburger-menu:checked ~ #nav-sidebar {
-    display: block;
-  
+#hamburger-menu:checked~#nav-sidebar {
+  display: block;
 }
- 
+
 #nav-sidebar {
-
-position:fixed;
-text-align: start;
-background-color: #0A3641;
-opacity: 95%;
-padding: 0px 20px 150px 0px;
-margin: 12.8px 0px 0px -20px;
-
-
-
+  position: fixed;
+  text-align: start;
+  background-color: #0A3641;
+  opacity: 95%;
+  padding: 0px 20px 150px 0px;
+  margin: 12.8px 0px 0px -20px;
 }
 
 #nav-sidebar ul {
@@ -133,9 +94,9 @@ margin: 12.8px 0px 0px -20px;
 }
 
 .call-to-action {
-    display: inline-block;
-    margin: 20px;
-  background-color:#ff9933;
+  display: inline-block;
+  margin: 20px;
+  background-color: #ff9933;
   letter-spacing: 0.2ex;
   border-style: none;
   padding: 15px;
@@ -143,17 +104,15 @@ margin: 12.8px 0px 0px -20px;
   border-radius: 5%;
   text-transform: uppercase;
   color: #FFFFFF;
+}
 
-  }
-  
-  .call-to-action:hover, button:hover {
-    background-color: #0A3641;
-    color: #FFFFFF;
-    border-color: #0A3641;
-  
-  }
+.call-to-action:hover, button:hover {
+  background-color: #0A3641;
+  color: #FFFFFF;
+  border-color: #0A3641;
+}
 
-  button {
+button {
   border-style: solid;
   padding: 10px;
   font-family: inherit;
@@ -162,93 +121,64 @@ margin: 12.8px 0px 0px -20px;
   color: #0A3641;
   border-color: #0A3641;
   background-color: #FFFFFF;
-
-
-  }
-
-
-
-ul {
-    display: inline-block;
-    list-style: none;
-    color: #0A3641;
-    text-transform: uppercase;
-    padding-top: 25px;
-  
 }
 
-ul.bullet {
-  list-style:square;
+ul {
+  display: inline-block;
+  list-style: none;
+  color: #0A3641;
+  text-transform: uppercase;
+  padding-top: 25px;
+}
+
+ul.bullet li {
+  list-style: square;
   text-align: start;
 }
 
 li {
-    text-decoration: none;
-    list-style: none;
-
+  text-decoration: none;
+  list-style: none;
 }
 
 .fal.fa-shipping-fast, .fal.fa-shopping-bag {
-
   padding: 25px;
 }
-
-
-
-
-
 
 main {
   padding: 20px;
 }
-
 
 body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: 100;
   text-align: center;
   color: #0A3641;
-  
-
 }
 
+footer {
+  background-color: #0A3641;
+  padding: 10px;
+}
 
-footer { 
-    background-color: #0A3641;
-    padding: 10px;
-    
- }
+#footer.row, #footer.column {
+  padding: 0px;
+}
 
- #footer.row, #footer.column {
-   padding: 0px;
+#footer p {
+  font-weight: 400;
+}
 
- 
- }
- 
+#footer-social {
+  color: #FFFFFF;
+  display: inline;
+}
 
- #footer p {
-   font-weight: 400;
- }
-
- #footer-social {
-   color: #FFFFFF;
-   display: inline;
-  
-
- }
-   
-
-     
-
- footer ul {
-   color: #FFFFFF;
-   text-transform: initial;
-   padding: 15px;
- }
-
- 
-
-
+footer ul {
+  color: #FFFFFF;
+  text-transform: initial;
+  padding: 15px;
+}
 
 h1 {
   text-transform: uppercase;
@@ -256,8 +186,8 @@ h1 {
   font-size: 2.5em;
   padding-top: 150px;
   padding-bottom: 50px;
-  
 }
+
 h2 {
   font-weight: 300;
   font-size: 1.5em;
@@ -267,13 +197,12 @@ h2 {
 .row {
   padding: 30px;
 }
+
 #shipping.row {
   padding: 0px;
 }
 
-
 .column {
-      
   padding: 5px;
 }
 
@@ -281,225 +210,178 @@ h2 {
   text-align: start;
 }
 
+input, select, textarea {
+  font-family: inherit;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #FFFFFF;
+  border-radius: 4px;
+  resize: vertical;
+}
 
-    
-    input, select, textarea {
-      font-family: inherit;
-      width: 100%;
-      padding: 12px;
-      border: 1px solid #FFFFFF;
-      border-radius: 4px;
-      resize: vertical;
-    }
-    
-    
-    input[type=submit] {
-      font-family: inherit;
-      letter-spacing: 0.5;
-      font-weight: 100;
-      text-transform: uppercase;
-      color: #0A3641;
-      padding: 12px 20px;
-      border: 1px solid;
-      border-radius: 4px;
+input[type=submit] {
+  font-family: inherit;
+  letter-spacing: 0.5;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #0A3641;
+  padding: 12px 20px;
+  border: 1px solid;
+  border-radius: 4px;
+}
 
+input[type=submit]:hover {
+  background-color: #0A3641;
+  color: #FFFFFF;
+}
 
-    }
-    
-    input[type=submit]:hover {
-      background-color: #0A3641;
-      color: #FFFFFF;
-    }
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
 
-    img {
+.container-products {
+  justify-content: space-around;
+  margin: 0 auto;
+  padding: 50px;
+}
 
-  max-width: 300px;
-    }
-    
-    .container {
-      border-radius: 5px;
-      background-color: #f2f2f2;
-      padding: 20px;
-      max-width: 1000px;
-      margin: auto;
-    }
+.product-header, .container-products {
+  max-width: 650px;
+}
 
-    .container-products {
-      max-width: 650px;
-      justify-content: space-around;
-      margin: 0 auto;
-      padding: 50px;
-  }
-  
-  
-  .product-header {
-      width: 100%;
-      max-width: 650px;
-      display: flex;
-      justify-content: flex-start;
-      margin: 0 auto;
-  }
-  
-  .product-title {
-      width: 45%;
-      border-bottom: 1px solid lightgray;
-      text-align: start;
+.product-header {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 auto;
+}
 
+.product-title {
+  border-bottom: 1px solid #ff9933;
+  text-align: start;
+}
 
-  }
-  
-  .price {
-      width: 15%;
-      border-bottom: 1px solid lightgray;
-      display: flex;
-      align-items: center;
-      
-  }
-  
-  .quantity {
-      width: 30%;
-      border-bottom: 1px solid lightgray;
-      display: flex;
-      align-items: center;
-    
-  }
-  
-  .total {
-      width: 10%;
-      border-bottom: 1px solid lightgray;
-      display: flex;
-      align-items: center;
-  }
-  
-  .product {
-      width: 45%;
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      padding: 10px 0;
-      border-bottom: 1px solid lightgray;
-  }
-  
-  
-  .products {
-      width: 100%;
-      display: flex;
-      flex-wrap: wrap;
-  }
-  
-  .products img {
-      width: 90px;
-  }
+.product, .total, .quantity, .price {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ff9933;
+}
 
-  .basketTotalContainer {
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
-    padding: 10px;
-  
-  }
+.product {
+  padding: 10px 0;
+  justify-content: space-around;
+}
 
-  .fal.fa-minus-circle, .fal.fa-plus-circle {
-    padding: 10px;
-  }
-   
+.product-title, .product {
+  width: 45%;
+}
 
+.total {
+  width: 10%;
+}
 
+.quantity {
+  width: 30%;
+}
 
+.price {
+  width: 15%;
+}
 
+.products {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
 
+.products img {
+  width: 90px;
+}
 
+.basketTotalContainer {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
 
-  
+.fal.fa-minus-circle, .fal.fa-plus-circle, .basketTotalContainer {
+  padding: 10px;
+}
 
-  
+.errorPage {
+  background-image: url(../Images/Background_frontpage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-    
-  
+.form-error {
+  color: #B24B1F;
+  font-size: 0.8rem;
+  padding: 10px;
+  text-align: start;
+  display: none;
+}
+
+.top-label {
+  padding-top: 20px;
+}
 
 @media only screen and (min-width: 600px) {
-
-  
-header {
-  padding-top: 30px;
-}
-
-nav {
-  display: inline;
-  padding-top: 25px;
-  margin-left: -500px;
-  position: fixed;
-}
-
-  #nav-2 {
-      display: inline;
-      font-size: 0.85em;
-      margin-right: -550px;
-      padding-left: 100px;
-
+  header {
+    padding-top: 30px;
   }
-
+  nav {
+    display: inline;
+    padding-top: 25px;
+    margin-left: -500px;
+    position: fixed;
+  }
+  #nav-2 {
+    display: inline;
+    font-size: 0.85em;
+    margin-right: -550px;
+    padding-left: 100px;
+  }
   #nav-2 ul {
     display: none;
-
   }
-
-
-
-     
-  nav ul, nav li, #nav-2 li{
-
-      display:inline;
-      padding: 20px;
-  
-  
-     }
-
-     li.icon, li.cart {
-
-      display: inline;
-      padding: 2px;
-     }
- 
-  
-    .logo {
-  max-width: 100px;
-  padding: 20px;
-  float: left;
-  
-   }
-  
-   .hamburger-label  {
-  display:none;
-   }
-  
-
+  nav ul, nav li, #nav-2 li {
+    display: inline;
+    padding: 20px;
+  }
+  li.icon, li.cart {
+    display: inline;
+    padding: 2px;
+  }
+  .logo {
+    max-width: 100px;
+    padding: 20px;
+    float: left;
+  }
+  .hamburger-label {
+    display: none;
+  }
   .column {
-      display: inline-block;
-      width: 30%;
-      
-      
+    display: inline-block;
+    width: 30%;
   }
-
-
-
   #footer.column {
     width: 20%;
-}
-
-}
-@media only screen and (min-width: 1000px) {
-
-  #nav-2 ul {
-      display: inline-block;
-
   }
-
-  nav {
-      display: inline;
-      padding-top: 25px;
-      margin-left: -380px;
-      position: fixed;
-
 }
+
+@media only screen and (min-width: 1000px) {
+  #nav-2 ul {
+    display: inline-block;
+  }
+  nav {
+    display: inline;
+    padding-top: 25px;
+    margin-left: -380px;
+    position: fixed;
+  }
 }

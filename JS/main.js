@@ -157,5 +157,7 @@ function showCart() {
 
 }
 
+
+
 onLoadCartNumbers();
 showCart();
