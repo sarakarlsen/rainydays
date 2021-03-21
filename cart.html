@@ -1,16 +1,30 @@
+<!DOCTYPE html>
 <html>
-    <head>
-      <title>CHECKOUT</title>
-        <meta name="description" content="Contact form and information, including phone number and address of the brand"/>
+  <head>
+      <!-- Hotjar Tracking Code for https://confident-ardinghelli-77f4e0.netlify.app/index.html -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:2301411,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+    <title>Rainy Days</title>
+    <meta
+      name="description" content="This is a webshop for sporty outerwear and jackets"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
-        <link href="CSS/styles.css" rel="stylesheet">
+        <link rel="stylesheet" href="CSS/styles.css">
+        <script src="https://kit.fontawesome.com/e223985532.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <a name="top"></a>
             <header class="header"> 
                 <a href="index.html">
-                <img src="images/RainyDays_Logo.png" class="logo"></a>
+                <img src="images/RainyDays_Logo.png" class="logo" alt="Rainy Days Logo mountain"></a>
                 <label class="hamburger-label" for="hamburger-menu"><i class="fas fa-bars"></i></label>
                 <input type="checkbox" id="hamburger-menu">
                 <nav>
@@ -24,7 +38,7 @@
                     <div id="nav-2">
                         <ul>
                     <li><a href="about.html">About</a></li>
-                   <li><a href="contact.html" class="current">Contact</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
                 </div>
                 <div id="nav-sidebar">
@@ -42,114 +56,79 @@
                 </div>
                     </div>
                     <div id="search-bar">
-                    <label class="icon"><i class="far fa-user"></i></label>
-                    <label class="icon"><i class="fas fa-search"></i></label>
-                    <label class="icon"><i class="fas fa-shopping-cart"></i></label>
-                </div>
+                    <ul>
+                    <li class="icon"><label for="user login" class="icon"><i class="far fa-user"></i></label></li>
+                    <li class="icon"><label for="search" class="icon"><i class="fas fa-search"></i></label></li>
+                   <li class="cart"><label for="shopping-cart" class="icon"><a href="cart.html"><i class="fas fa-shopping-cart"></i></label><span>0</span></a></li>
+                </ul>
+            </div>
                  </header>
                  <main>
-                <h1>SHOPPING BAG</h1>
-                <p>Required fields*</p>
-                    <div class="container">
-                      <form action="/action_page.php">
-                        <div class="row" id="shipping">
-                            <p>First name*</p>
+                     <h1>CART</h1>
+                     <div class="container-products">
+                        <div class="product-header">
+                            <h5 class="product-title">PRODUCT</h5>
+                            <h5 class="price sm-hide">PRICE</h5>
+                            <h5 class="quantity">QUANTITY</h5>
+                            <h5 class="total">TOTAL</h5>
                         </div>
-                            <div class="row">
-                            <input type="text" id="fname" name="firstname" placeholder="First name">
-                          </div>
-                          <div class="row" id="shipping">
-                          <p>Last name*</p>
-                        <div class="row">
-                            <input type="text" id="lname" name="lastname" placeholder="Last name">
-                        </div>       
-                        <div class="row" id="shipping">
-                            <p>Address line 1*</p>
+                        <div class="products">
+                
                         </div>
-                            <div class="row">
-                            <input type="text" id="address" name="address" placeholder="Address">
-                          </div>     
-                          <div class="row" id="shipping">
-                            <p>Address line 2</p>
-                        </div>
-                            <div class="row">
-                            <input type="text" id="address2" name="address" placeholder="Address">
-                          </div>          
-                          <div class="row" id="shipping">
-                            <p>City/Town*</p>
-                        </div>
-                            <div class="row">
-                            <input type="text" id="city" name="city" placeholder="City/town*">
-                          </div>                    
-                        <div class="row" id="shipping">
-                            <p>Country*</p>
-                        </div>
-                        <div class="row">
-                             <select name="country" required>
-                          <option value="USA" selected>USA</option>
-                          <option value="Norway">NORWAY</option>
-                          <option value="UNITED KINGDOM">UNITED KINGDOM</option>
-                          <option value="SOUTH AFRICA">SOUTH AFRICA</option>
-                        </select>
-                          </div>
-                        <div class="row">
-                          <input type="submit" value="Submit">
-                        </div>
-                          </div>
-                      </form>
                     </div>
-            <div class="top-label">
-                <a href="#top"> <i class="fas fa-angle-up"></i></a>
+
+                    <a href="cart.html"></a><button class="call-to-action">CONTINUE TO SHIPPING</button>
+
+
+                 </main>
+        <footer class="footer">
+            <div class="row" id="footer">
+                <div class="column 1" id="footer">
+                    <ul>
+                        <p>ABOUT</p>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="women.html">Women</a></li>
+                        <li><a href="men.html">Men</a></li>
+                        <li><a href="accessories.html">Accessories</a></li>
+                    </ul> 
                 </div>
-                <a href="#top">BACK TO TOP</a>
-              </main>
-                  <footer class="footer">
-                    <div class="row" id="footer">
-                        <div class="column 1" id="footer">
-                            <ul>
-                                <p>ABOUT</p>
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="women.html">Women</a></li>
-                                <li><a href="men.html">Men</a></li>
-                                <li><a href="accessories.html">Accessories</a></li>
-                            </ul> 
-                        </div>
-                        <div class="column 2" id="footer">
-                            <ul>
-                                <p>LEGAL</p>
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="women.html">Women</a></li>
-                                <li><a href="men.html">Men</a></li>
-                                <li><a href="accessories.html">Accessories</a></li>
-                            </ul> 
-                        </div>
-                        <div class="column 3" id="footer">
-                            <ul>
-                                <p>HELP</p>
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="women.html">Women</a></li>
-                                <li><a href="men.html">Men</a></li>
-                                <li><a href="accessories.html">Accessories</a></li>
-                            </ul> 
-                        </div>
-                            <div class="column 4" id="footer">
-                                <ul>
-                                <p>FOLLOW US OUT THERE</p>
-                                </ul>
-                                <div class="column" id="footer-social">
-                                <label for="facebook-icon" class="icon"id="footer-social" ><i class="fab fa-facebook"></i></label>
-                            </div>
-                                <div class="column" id="footer-social">
-                                <label for="instagram-icon" class="icon"id="footer-social"><i class="fab fa-instagram"></i></label>
-                            </div>
-                                <div class="column"id="footer-social">
-                                <label for="twitter-icon" class="icon"id="footer-social"><i class="fab fa-twitter"></i></label>
-                            </div>
-                               <div class="column"id="footer-social">
-                                <label for="twitter-icon" class="icon"id="footer-social"><i class="fab fa-twitter"></i></label>
-                            </div>
-                        </div>
-                        </div>
-                         </footer>
-    </body>
+                <div class="column 2" id="footer">
+                    <ul>
+                        <p>LEGAL</p>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="women.html">Women</a></li>
+                        <li><a href="men.html">Men</a></li>
+                        <li><a href="accessories.html">Accessories</a></li>
+                    </ul> 
+                </div>
+                <div class="column 3" id="footer">
+                    <ul>
+                        <p>HELP</p>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="women.html">Women</a></li>
+                        <li><a href="men.html">Men</a></li>
+                        <li><a href="accessories.html">Accessories</a></li>
+                    </ul> 
+                </div>
+                    <div class="column 4" id="footer">
+                        <ul>
+                        <p>FOLLOW US OUT THERE</p>
+                        </ul>
+                        <div class="column" id="footer-social">
+                        <label for="facebook-icon" class="icon"id="footer-social" ><i class="fab fa-facebook"></i></label>
+                    </div>
+                        <div class="column" id="footer-social">
+                        <label for="instagram-icon" class="icon"id="footer-social"><i class="fab fa-instagram"></i></label>
+                    </div>
+                        <div class="column"id="footer-social">
+                        <label for="twitter-icon" class="icon"id="footer-social"><i class="fab fa-twitter"></i></label>
+                    </div>
+                       <div class="column"id="footer-social">
+                        <label for="twitter-icon" class="icon"id="footer-social"><i class="fab fa-twitter"></i></label>
+                    </div>
+                </div>
+                </div>
+                 </footer>
+                 <script src="main.js"></script>
+</body>
 </html>

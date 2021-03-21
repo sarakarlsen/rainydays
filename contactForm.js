@@ -8,6 +8,9 @@ const email = document.querySelector("#email");
 const emailError = document.querySelector("#emailError");
 const subjectText = document.querySelector("#textarea");
 const subjectTextError = document.querySelector("#textError");
+const zipCode = document.querySelector("#zipCode")
+const zipCodeError = document.querySelector("#zipCodeError")
+
 
 const button = document.querySelector("#button");
 
@@ -57,6 +60,13 @@ function validateForm() {
       subjectError.style.display = "block";
 
 
+  } 
+  if (validateNumber(zipCode.value) === true) {
+    zipCodeError.style.display = "none";
+
+  } else {
+
+    zipCodeError.style.display = "block";
   }
 
 
@@ -88,5 +98,11 @@ function validateSubject() {
  } else {
      return true;
  }
-}
 
+
+function validateNumber(number) {
+  const numbersOnly = /^\d{10}$/;
+  const numberMatches = numbersOnly.test(number);
+  return numberMatches;
+}
+}

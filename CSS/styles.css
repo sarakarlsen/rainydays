@@ -302,6 +302,11 @@ h2 {
       background-color: #0A3641;
       color: #FFFFFF;
     }
+
+    img {
+
+  max-width: 300px;
+    }
     
     .container {
       border-radius: 5px;
@@ -310,6 +315,96 @@ h2 {
       max-width: 1000px;
       margin: auto;
     }
+
+    .container-products {
+      max-width: 650px;
+      justify-content: space-around;
+      margin: 0 auto;
+      padding: 50px;
+  }
+  
+  
+  .product-header {
+      width: 100%;
+      max-width: 650px;
+      display: flex;
+      justify-content: flex-start;
+      margin: 0 auto;
+  }
+  
+  .product-title {
+      width: 45%;
+      border-bottom: 1px solid lightgray;
+      text-align: start;
+
+
+  }
+  
+  .price {
+      width: 15%;
+      border-bottom: 1px solid lightgray;
+      display: flex;
+      align-items: center;
+      
+  }
+  
+  .quantity {
+      width: 30%;
+      border-bottom: 1px solid lightgray;
+      display: flex;
+      align-items: center;
+    
+  }
+  
+  .total {
+      width: 10%;
+      border-bottom: 1px solid lightgray;
+      display: flex;
+      align-items: center;
+  }
+  
+  .product {
+      width: 45%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 10px 0;
+      border-bottom: 1px solid lightgray;
+  }
+  
+  
+  .products {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+  }
+  
+  .products img {
+      width: 90px;
+  }
+
+  .basketTotalContainer {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 10px;
+  
+  }
+
+  .fal.fa-minus-circle, .fal.fa-plus-circle {
+    padding: 10px;
+  }
+   
+
+
+
+
+
+
+
+  
+
+  
 
     
   
