@@ -1,9 +1,9 @@
 const form = document.querySelector(".shippingForm");
 
-const firstName = document.querySelector("#e");
-const firstNameError = document.querySelector("#fullNameError"); 
-const lastName = document.querySelector("#subjectTest");
-const lastNameError = document.querySelector("#subjectTestError");
+const firstName = document.querySelector("#firstName");
+const firstNameError = document.querySelector("#firstNameError"); 
+const lastName = document.querySelector("#lastName");
+const lastNameError = document.querySelector("#lastNameError");
 const address = document.querySelector("#address");
 const addressError = document.querySelector("#addressError");
 const city = document.querySelector("#city");
@@ -13,7 +13,9 @@ const zipCodeError = document.querySelector("#zipCodeError")
 const country = document.querySelector("#country");
 const countryError = document.querySelector("#countryError");
 const emailShip = document.querySelector("#emailShip");
-const emailShipError = document.querySelector("#emailErrorShipError");
+const emailShipError = document.querySelector("#emailShipError");
+
+const button = document.querySelector("#ship.call-to-action");
 
 
 
@@ -103,7 +105,7 @@ function validateShip() {
   }
   
   
-  form.addEventListener("submit", validateShip);
+  form.addEventListener("click", validateShip);
   
   
 
