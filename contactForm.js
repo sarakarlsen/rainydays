@@ -58,17 +58,6 @@ function validateForm() {
 
 
   } 
-  if (validateNumber(zipCode.value) === true) {
-
-  
-
-    zipCodeError.style.display = "none";
-
-  } else {
-
-    zipCodeError.style.display = "block";
-  }
-
 
 
 }
@@ -100,13 +89,3 @@ function validateSubject() {
  }
 }
 
-
-function validateNumber(inputZip) {
-  const zipNumber = /^\d{6}$/;
-  const numbersMatch = zipNumber.test(inputZip)
-return numbersMatch;
-
-  
-
-
-}

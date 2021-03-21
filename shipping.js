@@ -1,4 +1,4 @@
-const form = document.querySelector(".shippingForm");
+const shipForm = document.querySelector(".shippingForm");
 
 const firstName = document.querySelector("#firstName");
 const firstNameError = document.querySelector("#firstNameError"); 
@@ -15,14 +15,25 @@ const countryError = document.querySelector("#countryError");
 const emailShip = document.querySelector("#emailShip");
 const emailShipError = document.querySelector("#emailShipError");
 
-const button = document.querySelector("#ship.call-to-action");
+const button = document.querySelector("#ship");
+
+console.log(button);
+
+console.log(firstNameError);
+console.log(lastNameError);
+
+console.log(addressError);
+console.log(cityError);
+console.log(zipCodeError);
+console.log(countryError);
+console.log(emailShipError);
+
+console.log(validateShip);
 
 
 
 function validateShip() {
     event.preventDefault()
-  
-  
   
   
     if (checkForLength(firstName.value, 1) === true) {
@@ -91,13 +102,21 @@ function validateShip() {
   
   
     }
+}
   
   
   
+  
+  shipForm.addEventListener("submit", validateShip);
+
+
+  function checkForLength(value, len) {
+    if (value.trim().length >= len) {
+      return true;
+    } else {
+      return false;
+    }
   }
-  
-  
-  form.addEventListener("click", validateShip);
   
   
 
@@ -109,21 +128,13 @@ function validateNumber(inputZip) {
 }
 
 function validateCountry() {
-    if (subject.value == "0") {
+    if (country.value == "0") {
         return false;
     } else {
         return true;
     }
    }
 
-
-   function checkForLength(value, len) {
-    if (value.trim().length >= len) {
-      return true;
-    } else {
-      return false;
-    }
-  }
 
   function validateEmail2(email) {
     const someSigns = /\S+@\S+\.\S+/;
