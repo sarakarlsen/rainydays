@@ -52,29 +52,37 @@
                 <h2>Step 2/3</h2>
                 <p>Required fields*</p>
                 <div class="container">
-                    <form class="contactForm">
+                    <form class="shippingForm">
                             <label>
-                                Name (required)
-                                <input name="fullName" id="fullName" />
+                                First name
+                                <input name="firstName" id="firstName"/>
                             </label>
-                            <div class="form-error" id="fullNameError"> Please fill out your name</div>
-                                Email (required)
-                                <input name="email" id="email"/>
+                            <div class="form-error" id="f"> Please fill out your name</div>
+                                Last name
+                                <input name="lastName" id="lastName"/>
                             </label>
-                            <div class="form-error" id="emailError">Please enter a valid email address</div>
+                            <div class="form-error" id="lastNameError">Please enter a valid email address</div>
                             <label>COUNTRY
-                            <select name="COUNTRY" id="subjectTest">
+                            <select name="COUNTRY" id="country">
                                 <option value="0" disabled selected>COUNTRY</option>
                                 <option value="Norway">Norway</option>
                                 <option value="United States of America">United States of America</option>
                                 <option value="Great Britain">Great Britain</option>
                             </select>
                             </label>
-                            <div class="form-error" id="subjectTestError">Please pick a country</div>
+                            <div class="form-error" id="countryError">Please pick a country</div>
+                            <label> City
+                                <input name="city" id="city">
+                         </label>
+                         <div class="form-error" id="cityError">Field can not be blank</div>
                             <label> ZipCode
                                 <input name="zipCode" id="zipCode" />
                             </label>
                             <div class="form-error" id="zipCodeError">Please enter a valid zipcode (6 characters, numbers only)</div>
+                            <label> Email
+                                <input name="email" id="emailShip">
+                            </label>
+                            <div class="form-error" id="emailShipError">Please enter a valid email address</div>
                         <button id="button"> SUBMIT</button>
                     </form>
                 </div>
@@ -134,6 +142,6 @@
                         </div>
                         </div>
                          </footer>
-                         <script src="contactForm.js"></script>
+                         <script src="shipping.js"></script>
     </body>
 </html>

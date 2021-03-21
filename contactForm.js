@@ -8,8 +8,6 @@ const email = document.querySelector("#email");
 const emailError = document.querySelector("#emailError");
 const subjectText = document.querySelector("#textarea");
 const subjectTextError = document.querySelector("#textError");
-const zipCode = document.querySelector("#zipCode")
-const zipCodeError = document.querySelector("#zipCodeError")
 
 
 const button = document.querySelector("#button");
@@ -43,7 +41,6 @@ function validateForm() {
 
   } else {
     subjectTextError.style.display = "block";
-    valid = false;
  
   }
   if (validateEmail(email.value) === true) {
