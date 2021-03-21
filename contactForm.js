@@ -62,6 +62,9 @@ function validateForm() {
 
   } 
   if (validateNumber(zipCode.value) === true) {
+
+  
+
     zipCodeError.style.display = "none";
 
   } else {
@@ -102,13 +105,11 @@ function validateSubject() {
 
 
 function validateNumber(inputZip) {
-  const zipNumber = /^\d{10}$/;
+  const zipNumber = /^\d{6}$/;
+  const numbersMatch = zipNumber.test(inputZip)
+return numbersMatch;
 
-  if(inputZip.value.match(zipNumber))
+  
 
-{
-return true;
-
-}
 
 }
