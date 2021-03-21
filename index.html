@@ -1,152 +1,167 @@
 <!DOCTYPE html>
 <html>
-  <head>
-      <!-- Hotjar Tracking Code for https://confident-ardinghelli-77f4e0.netlify.app/index.html -->
-<script>
-    (function(h,o,t,j,a,r){
-        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:2301411,hjsv:6};
-        a=o.getElementsByTagName('head')[0];
-        r=o.createElement('script');r.async=1;
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-        a.appendChild(r);
-    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
+
+<head>
+    <!-- Hotjar Tracking Code for https://confident-ardinghelli-77f4e0.netlify.app/index.html -->
+    <script>
+        (function (h, o, t, j, a, r) {
+            h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
+            h._hjSettings = { hjid: 2301411, hjsv: 6 };
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script'); r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+    </script>
     <title>Rainy Days</title>
-    <meta
-      name="description" content="This is a webshop for sporty outerwear and jackets"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="CSS/styles.css">
-        <link rel="stylesheet" href="CSS/index.css">
-    </head>
-    <body id="index">
-        <a name="top"></a>
-            <header class="header"> 
-                <a href="index.html">
-                <img src="images/RainyDays_Logo.png" class="logo" alt="Rainy Days Logo mountain"></a>
-                <label class="hamburger-label" for="hamburger-menu"><i class="fas fa-bars"></i></label>
-                <input type="checkbox" id="hamburger-menu">
-                <nav>
-                  <ul>
+    <meta name="description" content="This is a webshop for sporty outerwear and jackets" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/index.css">
+</head>
+
+<body id="index">
+    <a name="top"></a>
+    <header class="header">
+        <a href="index.html">
+            <img src="images/RainyDays_Logo.png" class="logo" alt="Rainy Days Logo mountain"></a>
+        <label class="hamburger-label" for="hamburger-menu"><i class="fas fa-bars"></i></label>
+        <input type="checkbox" id="hamburger-menu">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="women.html">Women</a></li>
+                <li><a href="men.html">Men</a></li>
+                <li><a href="accessories.html">Accessories</a></li>
+            </ul>
+        </nav>
+        <div id="nav-2">
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div id="nav-sidebar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="women.html">Women</a></li>
+                <li><a href="men.html">Men</a></li>
+                <li><a href="accessories.html">Accessories</a></li>
+            </ul>
+            <div id="nav-sidebar-about">
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="search-bar">
+            <ul>
+                <li class="icon"><label for="user login" class="icon"><i class="far fa-user"></i></label></li>
+                <li class="icon"><label for="search" class="icon"><i class="fas fa-search"></i></label></li>
+                <li class="cart"><label for="shopping-cart" class="icon"><a href="cart.html"><i
+                                class="fas fa-shopping-cart"></i></label><span>0</span></a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="container" id="index-container">
+            <h1>Pushing the comfort zone</h1>
+            <h2>New line of jackets <br>in stores and online now</br></h2>
+            <a href="women.html" class="call-to-action">Discover</a>
+            <label class="chat-label"><i class="fas fa-comments" alt="chat with us"></i></label>
+        </div>
+        <div class="row" id="index-row">
+            <h1>Most popular products</h1>
+            <div class="column">
+                <img src="images/luca-massimilian-2gVAZeVUfkw-unsplash.jpg" class="link"
+                    alt="Black/white photo man with jacket">
+                <li>
+                    <h2>Jacket 1</h2>
+                </li>
+                <li>
+                    <p class="price" id="index"> $250.00</p>
+                </li>
+                <li><a href="#" class="call-to-action" id="cart-button">Add to bag</a></li>
+            </div>
+            <div class="column">
+                <img src="images/luca-massimilian-2gVAZeVUfkw-unsplash.jpg" class="link"
+                    alt="Black/white photo man with jacket">
+                <li>
+                    <h2>Jacket 2</h2>
+                </li>
+                <li>
+                    <p class="price" id="index"> $225.00</p>
+                </li>
+                <li><a href="#" class="call-to-action" id="cart-button">Add to bag</a></li>
+            </div>
+            <div class="column">
+                <img src="images/luca-massimilian-2gVAZeVUfkw-unsplash.jpg" class="link"
+                    alt="Black/white photo man with jacket">
+                <li>
+                    <h2>Jacket 3</h2>
+                </li>
+                <li>
+                    <p class="price" id="index"> $200.00</p>
+                </li>
+                <li><a href="#" class="call-to-action" id="cart-button">Add to bag</a></li>
+            </div>
+        </div>
+        <div class="top-label">
+            <a href="#top"> <i class="fas fa-angle-up"></i></a>
+        </div>
+        <a href="#top">BACK TO TOP</a>
+    </main>
+    <footer class="footer">
+        <div class="row" id="footer">
+            <div class="column 1" id="footer">
+                <ul>
+                    <p>ABOUT</p>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="women.html">Women</a></li>
                     <li><a href="men.html">Men</a></li>
                     <li><a href="accessories.html">Accessories</a></li>
-                    </ul>
-                </nav>
-                    <div id="nav-2">
-                        <ul>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-                </div>
-                <div id="nav-sidebar">
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="women.html">Women</a></li>
-                        <li><a href="men.html">Men</a></li>
-                        <li><a href="accessories.html">Accessories</a></li>
-                    </ul>
-                    <div id="nav-sidebar-about">
-                    <ul>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-                    </div>
-                    <div id="search-bar">
-                    <ul>
-                    <li class="icon"><label for="user login" class="icon"><i class="far fa-user"></i></label></li>
-                    <li class="icon"><label for="search" class="icon"><i class="fas fa-search"></i></label></li>
-                   <li class="cart"><label for="shopping-cart" class="icon"><a href="cart.html"><i class="fas fa-shopping-cart"></i></label><span>0</span></a></li>
                 </ul>
             </div>
-                 </header>
-                 <main>
-            <div class="container" id="index-container">
-                <h1>Pushing the comfort zone</h1>
-                <h2>New line of jackets <br>in stores and online now</br></h2>
-                <a href="women.html"class="call-to-action">Discover</a>
-                <label class="chat-label"><i class="fas fa-comments" alt="chat with us"></i></label>
+            <div class="column 2" id="footer">
+                <ul>
+                    <p>LEGAL</p>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="women.html">Women</a></li>
+                    <li><a href="men.html">Men</a></li>
+                    <li><a href="accessories.html">Accessories</a></li>
+                </ul>
             </div>
-            <div class="row" id="index-row">
-                <h1>Most popular products</h1>
-               <div class="column">
-                 <img src="images/luca-massimilian-2gVAZeVUfkw-unsplash.jpg" class="link"
-                 alt="Black/white photo man with jacket">
-                 <li><h2>Jacket 1</h2></li>
-                 <li><p class="price" id="index"> $250.00</p></li> 
-                 <li><a href="#"class="call-to-action" id="cart-button">Add to bag</a></li>
-               </div>
-              <div class="column">
-                <img src="images/luca-massimilian-2gVAZeVUfkw-unsplash.jpg" class="link"
-                alt="Black/white photo man with jacket">
-                <li><h2>Jacket 2</h2></li>
-                <li><p class="price" id="index"> $225.00</p></li> 
-                <li><a href="#"class="call-to-action" id="cart-button">Add to bag</a></li>
-              </div>
-             <div class="column">
-                <img src="images/luca-massimilian-2gVAZeVUfkw-unsplash.jpg" class="link"
-                 alt="Black/white photo man with jacket">
-                 <li><h2>Jacket 3</h2></li>
-                 <li><p class="price" id="index"> $200.00</p></li> 
-                 <li><a href="#"class="call-to-action" id="cart-button">Add to bag</a></li>
-               </div>
+            <div class="column 3" id="footer">
+                <ul>
+                    <p>HELP</p>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="women.html">Women</a></li>
+                    <li><a href="men.html">Men</a></li>
+                    <li><a href="accessories.html">Accessories</a></li>
+                </ul>
             </div>
-            <div class="top-label">
-                <a href="#top"> <i class="fas fa-angle-up"></i></a>
+            <div class="column 4" id="footer">
+                <ul>
+                    <p>FOLLOW US OUT THERE</p>
+                </ul>
+                <div class="column" id="footer-social">
+                    <label for="facebook-icon" class="icon" id="footer-social"><i class="fab fa-facebook"></i></label>
                 </div>
-                <a href="#top">BACK TO TOP</a>
-            </main>
-            <footer class="footer">
-                <div class="row" id="footer">
-                    <div class="column 1" id="footer">
-                        <ul>
-                            <p>ABOUT</p>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="women.html">Women</a></li>
-                            <li><a href="men.html">Men</a></li>
-                            <li><a href="accessories.html">Accessories</a></li>
-                        </ul> 
-                    </div>
-                    <div class="column 2" id="footer">
-                        <ul>
-                            <p>LEGAL</p>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="women.html">Women</a></li>
-                            <li><a href="men.html">Men</a></li>
-                            <li><a href="accessories.html">Accessories</a></li>
-                        </ul> 
-                    </div>
-                    <div class="column 3" id="footer">
-                        <ul>
-                            <p>HELP</p>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="women.html">Women</a></li>
-                            <li><a href="men.html">Men</a></li>
-                            <li><a href="accessories.html">Accessories</a></li>
-                        </ul> 
-                    </div>
-                        <div class="column 4" id="footer">
-                            <ul>
-                            <p>FOLLOW US OUT THERE</p>
-                            </ul>
-                            <div class="column" id="footer-social">
-                            <label for="facebook-icon" class="icon"id="footer-social" ><i class="fab fa-facebook"></i></label>
-                        </div>
-                            <div class="column" id="footer-social">
-                            <label for="instagram-icon" class="icon"id="footer-social"><i class="fab fa-instagram"></i></label>
-                        </div>
-                            <div class="column"id="footer-social">
-                            <label for="twitter-icon" class="icon"id="footer-social"><i class="fab fa-twitter"></i></label>
-                        </div>
-                           <div class="column"id="footer-social">
-                            <label for="twitter-icon" class="icon"id="footer-social"><i class="fab fa-twitter"></i></label>
-                        </div>
-                    </div>
-                    </div>
-                     </footer>
-                     <script src="main.js"></script>
-    </body>
+                <div class="column" id="footer-social">
+                    <label for="instagram-icon" class="icon" id="footer-social"><i class="fab fa-instagram"></i></label>
+                </div>
+                <div class="column" id="footer-social">
+                    <label for="twitter-icon" class="icon" id="footer-social"><i class="fab fa-twitter"></i></label>
+                </div>
+                <div class="column" id="footer-social">
+                    <label for="twitter-icon" class="icon" id="footer-social"><i class="fab fa-twitter"></i></label>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+
 </html>

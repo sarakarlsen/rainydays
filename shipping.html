@@ -1,153 +1,159 @@
 <html>
-    <head>
-      <title>SHIPPING</title>
-        <meta name="description" content="Contact form and information, including phone number and address of the brand"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
-        <link href="CSS/styles.css" rel="stylesheet">
-        <script src="https://kit.fontawesome.com/e223985532.js" crossorigin="anonymous"></script>
-    </head>
-    <body>
-        <a name="top"></a>
-        <header class="header"> 
-            <a href="index.html">
+
+<head>
+    <title>SHIPPING</title>
+    <meta name="description" content="Contact form and information, including phone number and address of the brand" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
+    <link href="CSS/styles.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e223985532.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <a name="top"></a>
+    <header class="header">
+        <a href="index.html">
             <img src="images/RainyDays_Logo.png" class="logo" alt="Rainy Days Logo mountain"></a>
-            <label class="hamburger-label" for="hamburger-menu"><i class="fas fa-bars"></i></label>
-            <input type="checkbox" id="hamburger-menu">
-            <nav>
-              <ul>
+        <label class="hamburger-label" for="hamburger-menu"><i class="fas fa-bars"></i></label>
+        <input type="checkbox" id="hamburger-menu">
+        <nav>
+            <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="women.html">Women</a></li>
                 <li><a href="men.html">Men</a></li>
                 <li><a href="accessories.html">Accessories</a></li>
-                </ul>
-            </nav>
-                <div id="nav-2">
-                    <ul>
+            </ul>
+        </nav>
+        <div id="nav-2">
+            <ul>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
-            </div>
-            <div id="nav-sidebar">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="women.html">Women</a></li>
-                    <li><a href="men.html">Men</a></li>
-                    <li><a href="accessories.html">Accessories</a></li>
-                </ul>
-                <div id="nav-sidebar-about">
+        </div>
+        <div id="nav-sidebar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="women.html">Women</a></li>
+                <li><a href="men.html">Men</a></li>
+                <li><a href="accessories.html">Accessories</a></li>
+            </ul>
+            <div id="nav-sidebar-about">
                 <ul>
                     <li><a href="about.html">About</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
-                </div>
-                <div id="search-bar">
-                <ul>
+        </div>
+        <div id="search-bar">
+            <ul>
                 <li class="icon"><label for="user login" class="icon"><i class="far fa-user"></i></label></li>
                 <li class="icon"><label for="search" class="icon"><i class="fas fa-search"></i></label></li>
-               <li class="cart"><label for="shopping-cart" class="icon"><a href="cart.html"><i class="fas fa-shopping-cart"></i></label><span>0</span></a></li>
+                <li class="cart"><label for="shopping-cart" class="icon"><a href="cart.html"><i
+                                class="fas fa-shopping-cart"></i></label><span>0</span></a></li>
             </ul>
         </div>
-             </header>
-                 <main>
-                <h1>SHIPPING<i class="fal fa-shipping-fast"></i></h1>
-                <h2>Step 2/3</h2>
-                <p>Required fields*</p>
-                <div class="container">
-                    <form class="shippingForm">
-                            <label>
-                                First name
-                                <input name="firstName" id="firstName"/>
-                            </label>
-                            <div class="form-error" id="firstNameError"> Please fill out your name</div>
-                                Last name
-                                <input name="lastName" id="lastName"/>
-                            </label>
-                            <div class="form-error" id="lastNameError">Please enter your last name</div>
-                            <label> Address
-                                <input name="address" id="address"/>
+    </header>
+    <main>
+        <h1>SHIPPING<i class="fal fa-shipping-fast"></i></h1>
+        <h2>Step 2/3</h2>
+        <p>Required fields*</p>
+        <div class="container">
+            <form class="shippingForm">
+                <label>
+                    First name
+                    <input name="firstName" id="firstName" />
+                </label>
+                <div class="form-error" id="firstNameError"> Please fill out your name</div>
+                Last name
+                <input name="lastName" id="lastName" />
+                </label>
+                <div class="form-error" id="lastNameError">Please enter your last name</div>
+                <label> Address
+                    <input name="address" id="address" />
 
-                            </label>
-                            <div class="form-error" id="addressError">Please enter a valid address. Minimum 10 characters</div>
-                            <label> City
-                                <input name="city" id="city">
-                         </label>
-                         <div class="form-error" id="cityError">Field can not be blank</div>
-                         <label> ZipCode
-                            <input name="zipCode" id="zipCode" />
-                        </label>
-                        <div class="form-error" id="zipCodeError">Please enter a valid zipcode (6 characters, numbers only)</div>
-                            <label>COUNTRY
-                            <select name="COUNTRY" id="country">
-                                <option value="0" disabled selected>COUNTRY</option>
-                                <option value="Norway">Norway</option>
-                                <option value="United States of America">United States of America</option>
-                                <option value="Great Britain">Great Britain</option>
-                            </select>
-                            </label>
-                            <div class="form-error" id="countryError">Please pick a country</div>
-                            <label> Email
-                                <input name="email" id="emailShip">
-                            </label>
-                            <div class="form-error" id="emailShipError">Please enter a valid email address</div>
-                        <button class="call-to-action" id="ship">PROCEED TO PAYMENT</button>
-                    </form>
+                </label>
+                <div class="form-error" id="addressError">Please enter a valid address. Minimum 10 characters</div>
+                <label> City
+                    <input name="city" id="city">
+                </label>
+                <div class="form-error" id="cityError">Field can not be blank</div>
+                <label> ZipCode
+                    <input name="zipCode" id="zipCode" />
+                </label>
+                <div class="form-error" id="zipCodeError">Please enter a valid zipcode (6 characters, numbers only)
                 </div>
-            <div class="top-label">
-                <a href="#top"> <i class="fas 
+                <label>COUNTRY
+                    <select name="COUNTRY" id="country">
+                        <option value="0" disabled selected>COUNTRY</option>
+                        <option value="Norway">Norway</option>
+                        <option value="United States of America">United States of America</option>
+                        <option value="Great Britain">Great Britain</option>
+                    </select>
+                </label>
+                <div class="form-error" id="countryError">Please pick a country</div>
+                <label> Email
+                    <input name="email" id="emailShip">
+                </label>
+                <div class="form-error" id="emailShipError">Please enter a valid email address</div>
+                <button class="call-to-action" id="ship">PROCEED TO PAYMENT</button>
+            </form>
+        </div>
+        <div class="top-label">
+            <a href="#top"> <i class="fas 
                     fa-angle-up"></i></a>
+        </div>
+        <a href="#top">BACK TO TOP</a>
+    </main>
+    <footer class="footer">
+        <div class="row" id="footer">
+            <div class="column 1" id="footer">
+                <ul>
+                    <p>ABOUT</p>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="women.html">Women</a></li>
+                    <li><a href="men.html">Men</a></li>
+                    <li><a href="accessories.html">Accessories</a></li>
+                </ul>
+            </div>
+            <div class="column 2" id="footer">
+                <ul>
+                    <p>LEGAL</p>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="women.html">Women</a></li>
+                    <li><a href="men.html">Men</a></li>
+                    <li><a href="accessories.html">Accessories</a></li>
+                </ul>
+            </div>
+            <div class="column 3" id="footer">
+                <ul>
+                    <p>HELP</p>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="women.html">Women</a></li>
+                    <li><a href="men.html">Men</a></li>
+                    <li><a href="accessories.html">Accessories</a></li>
+                </ul>
+            </div>
+            <div class="column 4" id="footer">
+                <ul>
+                    <p>FOLLOW US OUT THERE</p>
+                </ul>
+                <div class="column" id="footer-social">
+                    <label for="facebook-icon" class="icon" id="footer-social"><i class="fab fa-facebook"></i></label>
                 </div>
-                <a href="#top">BACK TO TOP</a>
-              </main>
-                  <footer class="footer">
-                    <div class="row" id="footer">
-                        <div class="column 1" id="footer">
-                            <ul>
-                                <p>ABOUT</p>
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="women.html">Women</a></li>
-                                <li><a href="men.html">Men</a></li>
-                                <li><a href="accessories.html">Accessories</a></li>
-                            </ul> 
-                        </div>
-                        <div class="column 2" id="footer">
-                            <ul>
-                                <p>LEGAL</p>
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="women.html">Women</a></li>
-                                <li><a href="men.html">Men</a></li>
-                                <li><a href="accessories.html">Accessories</a></li>
-                            </ul> 
-                        </div>
-                        <div class="column 3" id="footer">
-                            <ul>
-                                <p>HELP</p>
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="women.html">Women</a></li>
-                                <li><a href="men.html">Men</a></li>
-                                <li><a href="accessories.html">Accessories</a></li>
-                            </ul> 
-                        </div>
-                            <div class="column 4" id="footer">
-                                <ul>
-                                <p>FOLLOW US OUT THERE</p>
-                                </ul>
-                                <div class="column" id="footer-social">
-                                <label for="facebook-icon" class="icon"id="footer-social" ><i class="fab fa-facebook"></i></label>
-                            </div>
-                                <div class="column" id="footer-social">
-                                <label for="instagram-icon" class="icon"id="footer-social"><i class="fab fa-instagram"></i></label>
-                            </div>
-                                <div class="column"id="footer-social">
-                                <label for="twitter-icon" class="icon"id="footer-social"><i class="fab fa-twitter"></i></label>
-                            </div>
-                               <div class="column"id="footer-social">
-                                <label for="twitter-icon" class="icon"id="footer-social"><i class="fab fa-twitter"></i></label>
-                            </div>
-                        </div>
-                        </div>
-                         </footer>
-                         <script src="shipping.js"></script>
-    </body>
+                <div class="column" id="footer-social">
+                    <label for="instagram-icon" class="icon" id="footer-social"><i class="fab fa-instagram"></i></label>
+                </div>
+                <div class="column" id="footer-social">
+                    <label for="twitter-icon" class="icon" id="footer-social"><i class="fab fa-twitter"></i></label>
+                </div>
+                <div class="column" id="footer-social">
+                    <label for="twitter-icon" class="icon" id="footer-social"><i class="fab fa-twitter"></i></label>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="JS/shipping.js"></script>
+    <script src="JS/main.js"></script>
+</body>
+
 </html>
