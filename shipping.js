@@ -92,14 +92,6 @@ function validateShip() {
   
     }
   
-    if (validateSubject(subject.value) === true) {
-        subjectError.style.display = "none";
-    } else {
-        subjectError.style.display = "block";
-  
-  
-    } 
-  
   
   
   }
