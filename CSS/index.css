@@ -13,6 +13,13 @@ body#index {
       background-color: #FFFFFF;
   }
 
+  #index.price{
+
+    display: block;
+    width:100%;
+    border-bottom: none;
+  }
+
   .call-to-action#index {
     color: #FFFFFF;
   }
