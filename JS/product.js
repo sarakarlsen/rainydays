@@ -31,10 +31,11 @@ async function fetchInfo() {
 fetchInfo();
 
 function createHTML(info) {
-    detailContainer.innerHTML = `<h1>${info.name}</h1>
+    detailContainer.innerHTML = `
+    <h1>${info.name}</h1>
                       <img src="${info.images[0].src}"</img>
                                   <p>${info.description}<p>
-                                  <h2 style=padding=20px;>$ ${info.prices.price}</h2>
+                                  <h2 style=padding:20px;>$ ${info.prices.price}</h2>
                                   <a href="#" class="call-to-action" id="cart-button">Add to bag</a>`
 }
 
