@@ -21,6 +21,10 @@ a:hover {
   color: inherit;
 }
 
+img {
+  max-width: 300px;
+}
+
 img.link {
   width: 80%;
 }

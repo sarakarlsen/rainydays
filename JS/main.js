@@ -1,3 +1,40 @@
+
+const productsTest = document.querySelector(".product-row");
+
+const url = "https://flower-power.site/wp-json/wc/store/products";
+
+async function fetchProducts() {
+    try {
+        const response = await fetch(url);
+        const details = await response.json();
+
+        console.log(details);
+
+        details.forEach(function(result) {
+            productsTest.innerHTML += `
+            <div class="column">
+             <a href="product.html?id=${result.id}">
+            <img src="${result.images[0].src}"</img></a>
+            <div>${result.name}</div>
+            <a href="product.html?id=${result.id}" class="call-to-action" id="cart-button">Read more</a>
+            </div>`
+        });
+
+    
+    }
+
+    catch(error) {
+        console.log(error);
+    }
+}
+
+fetchProducts();
+
+
+
+
+
+
 let carts = document.querySelectorAll("#cart-button");
 
 let products = [
