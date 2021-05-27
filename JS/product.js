@@ -39,3 +39,35 @@ function createHTML(info) {
                                   <a href="#" class="call-to-action" id="cart-button">Add to bag</a>`
 }
 
+
+
+
+const responseThree = await fetch(url);
+        const testAgain = await responseThree.json();
+
+        console.log(testAgain);
+
+    
+
+  
+
+              testAgain.forEach(function(testing){
+
+            
+      
+                postsContainerTwo.innerHTML += `<div class="categories-container">
+                <ul>
+                <a href="details.html<h3>${testing.title.rendered}</h3>
+                <img src="${testing.jetpack_featured_media_url}"</img>
+                <button class="button">READ POST</buttton>
+                </ul>
+                </div>`
+      
+                console.log(testing.id);
+              
+              })
+      
+              ; 
+
+
+              callApiAgain();
