@@ -1,4 +1,4 @@
-const productsTest = document.querySelector(".product-row");
+const productsTest = document.querySelector(".row.index-row");
 
 const url = "https://rainydays.website/wp-json/wc/store/products";
 

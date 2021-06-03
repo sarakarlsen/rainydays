@@ -10,10 +10,6 @@
   padding: 40px;
 }
 
-#index-row {
-  background-color: #fff;
-}
-
 #index.price {
   display: block;
   width: 100%;
@@ -222,6 +218,10 @@ h2 {
 
 .row {
   padding: 30px;
+}
+
+.row.index-row {
+  background-color: #fff;
 }
 
 .row-about {
