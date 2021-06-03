@@ -1,6 +1,6 @@
 const productsTest = document.querySelector(".row.index-row");
 
-const url = "https://rainydays.website/wp-json/wc/store/products";
+const url = "https://tsh.olx.mybluehost.me/wp-json/wc/store/products";
 
 async function fetchProducts() {
   try {
