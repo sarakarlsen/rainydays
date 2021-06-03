@@ -1,6 +1,6 @@
 const productsTest = document.querySelector(".product-row");
 
-const url = "https://rainydays-website.tsh.olx.mybluehost.me/wc/store/products";
+const url = "http://rainydays-website.tsh.olx.mybluehost.me/wc/store/products";
 
 async function fetchProducts() {
   try {
