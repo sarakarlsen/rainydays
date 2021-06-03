@@ -1,6 +1,7 @@
 const productsTest = document.querySelector(".row.index-row");
 
-const url = "https://tsh.olx.mybluehost.me/wp-json/wc/store/products";
+const url =
+  "http://rainydays-website.tsh.olx.mybluehost.me/wp-json/wc/store/products";
 
 async function fetchProducts() {
   try {
@@ -13,7 +14,7 @@ async function fetchProducts() {
       productsTest.innerHTML += `
             <div class="column">
              <a href="product.html?id=${result.id}">
-            <img src="${result.images[0].src}"</img></a>
+             <img src="${result.images[0].src}."></a>
             <div>${result.name}</div>
             <a href="product.html?id=${result.id}" class="call-to-action" id="cart-button">Read more</a>
             </div>`;
