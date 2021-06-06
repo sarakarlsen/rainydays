@@ -506,4 +506,9 @@ input[type="submit"]:hover {
   .flex-item {
     width: 400px;
   }
+
+  .top-white {
+    color: #fff;
+    padding: 10px;
+  }
 }
