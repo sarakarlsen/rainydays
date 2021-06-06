@@ -1,7 +1,6 @@
 const productsTest = document.querySelector(".product-row");
 
-const urlAll =
-  "http://rainydays-shop.tsh.olx.mybluehost.me/wp-json/wc/store/products";
+const urlAll = "https://rainydays.website/wp-json/wc/store/products";
 
 async function fetchAllProducts() {
   try {

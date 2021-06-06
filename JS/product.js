@@ -8,8 +8,7 @@ const id = params.get("id");
 
 console.log(id);
 
-const url_api =
-  "http://rainydays-shop.tsh.olx.mybluehost.me/wp-json/wc/store/products/" + id;
+const url_api = "https://rainydays.website/wp-json/wc/store/products/" + id;
 
 console.log(url_api);
 
