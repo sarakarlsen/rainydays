@@ -1,7 +1,6 @@
-const productsTest = document.querySelector(".row.index-row");
+const productsIndex = document.querySelector(".row.index-row");
 
-const url =
-  "http://rainydays-website.tsh.olx.mybluehost.me/wp-json/wc/store/products";
+const url = "https://rainydays.website/wp-json/wc/store/products";
 
 async function fetchProducts() {
   try {
@@ -10,14 +9,19 @@ async function fetchProducts() {
 
     console.log(details);
 
-    details.forEach(function (result) {
-      productsTest.innerHTML += `
-            <div class="column">
-             <a href="product.html?id=${result.id}">
-             <img src="${result.images[0].src}."></a>
-            <div>${result.name}</div>
-            <a href="product.html?id=${result.id}" class="call-to-action" id="cart-button">Read more</a>
-            </div>`;
+    details.forEach(function (resultsIndex, index) {
+      if (index <= 2) {
+        productsIndex.innerHTML += `<div class="column">
+        <a href="product.html?id=${resultsIndex.id}">
+        <img src="${resultsIndex.images[0].src}."></a>
+       <div>${resultsIndex.name}</div>
+       <a href="product.html?id=${resultsIndex.id}" class="call-to-action" id="cart-button">Read more</a>
+       </div>
+        `;
+        console.log(resultsIndex);
+      } else {
+        console.log("nei");
+      }
     });
   } catch (error) {
     console.log(error);

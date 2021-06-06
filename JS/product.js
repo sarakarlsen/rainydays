@@ -9,8 +9,7 @@ const id = params.get("id");
 console.log(id);
 
 const url_api =
-  "http://rainydays-website.tsh.olx.mybluehost.me/test/wp-json/wc/store/products/" +
-  id;
+  "http://rainydays-shop.tsh.olx.mybluehost.me/wp-json/wc/store/products/" + id;
 
 console.log(url_api);
 
@@ -31,9 +30,12 @@ fetchInfo();
 
 function createHTML(info) {
   detailContainer.innerHTML = `
-    <h1>${info.name}</h1>
-                      <img src="${info.images[0].src}"</img>
-                                  <p>${info.description}<p>
+    <h1 class="top">${info.name}</h1>
+    <div class="products-content">
+    <div class="flex-item">
+                      <img src="${info.images[0].src}"/></div>
+                      <div class="flex-item">
+                                  <p>${info.short_description}<p>
                                   <h2 style=padding:20px;>$ ${info.prices.price}</h2>
-                                  <a href="#" class="call-to-action" id="cart-button">Add to bag</a>`;
+                                  <a href="#" class="call-to-action" id="cart-button">Add to bag</a></div></div>`;
 }
